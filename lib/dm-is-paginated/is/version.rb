@@ -7,8 +7,8 @@ module DataMapper
       VERSION_REV   = nil
 
       VERSION = [
-        VERSION_MAJOR, 
-        VERSION_MINOR, 
+        VERSION_MAJOR,
+        VERSION_MINOR,
         VERSION_TINY
       ].join('.')  + (VERSION_REV ? ".#{VERSION_REV}" : "")
     end
