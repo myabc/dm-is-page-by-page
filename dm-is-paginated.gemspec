@@ -15,9 +15,6 @@ Gem::Specification.new do |s|
   s.post_install_message = %q{
 For more information on dm-is-paginated, see:
  http://dm-is-paginated.rubyforge.org/
-
-
-
 }
   s.rdoc_options = ["--main", "README.txt"]
   s.require_paths = ["lib"]
