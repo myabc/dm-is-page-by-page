@@ -13,9 +13,7 @@ require dir / 'is' / 'paginated'
 
 # Include the plugin in Resource
 module DataMapper
-  module Resource
-    module ClassMethods
-      include DataMapper::Is::Paginated
-    end # module ClassMethods
-  end # module Resource
+  module Model
+    include DataMapper::Is::Paginated
+  end # module Module
 end # module DataMapper
