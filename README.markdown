@@ -1,18 +1,20 @@
-= dm-is-paginated
+dm-is-paginated
+---------------
 
 http://dm-is-paginated.rubyforge.org
 
-== DESCRIPTION:
+## DESCRIPTION:
 
 dm-is-paginated is a simple pagination plugin for DataMapper.
 
 See the website for more details.
 
-== LICENSE:
+## LICENSE:
 
 (The MIT License)
 
 Copyright (c) 2008 Lori Holden
+Copyright (c) 2009 Alex Coles
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
