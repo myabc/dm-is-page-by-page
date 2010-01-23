@@ -23,6 +23,7 @@ Gem::Specification.new do |s|
      "README.markdown",
      "Rakefile",
      "VERSION",
+     "dm-is-page-by-page.gemspec",
      "lib/dm-is-page-by-page.rb",
      "lib/dm-is-page-by-page/hash.rb",
      "lib/dm-is-page-by-page/is/paginated.rb",
