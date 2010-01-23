@@ -4,12 +4,12 @@
 # -*- encoding: utf-8 -*-
 
 Gem::Specification.new do |s|
-  s.name = %q{dm-is-paginated}
+  s.name = %q{dm-is-page-by-page}
   s.version = "0.0.2"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Lori Holden", "Alex Coles"]
-  s.date = %q{2009-12-14}
+  s.date = %q{2010-01-23}
   s.description = %q{A simple pagination plugin for DataMapper}
   s.email = %q{alex@alexbcoles.com}
   s.extra_rdoc_files = [
@@ -23,12 +23,10 @@ Gem::Specification.new do |s|
      "README.markdown",
      "Rakefile",
      "VERSION",
-     "dm-is-paginated.gemspec",
-     "lib/dm-is-paginated.rb",
-     "lib/dm-is-paginated/hash.rb",
-     "lib/dm-is-paginated/is/paginated.rb",
-     "lib/dm-is-paginated/is/version.rb",
-     "spec/dm-is-paginated_spec.rb",
+     "lib/dm-is-page-by-page.rb",
+     "lib/dm-is-page-by-page/hash.rb",
+     "lib/dm-is-page-by-page/is/paginated.rb",
+     "lib/dm-is-page-by-page/is/version.rb",
      "spec/spec.opts",
      "spec/spec_helper.rb",
      "tasks/spec.rake",
@@ -38,14 +36,13 @@ Gem::Specification.new do |s|
      "website/stylesheets/screen.css",
      "website/template.html.erb"
   ]
-  s.homepage = %q{http://github.com/myabc/dm-is-paginated}
+  s.homepage = %q{http://github.com/myabc/dm-is-page-by-page}
   s.rdoc_options = ["--charset=UTF-8"]
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.3.5}
   s.summary = %q{A simple pagination plugin for DataMapper}
   s.test_files = [
-    "spec/dm-is-paginated_spec.rb",
-     "spec/spec_helper.rb"
+    "spec/spec_helper.rb"
   ]
 
   if s.respond_to? :specification_version then

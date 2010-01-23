@@ -1,9 +1,11 @@
 module DataMapper
   module Is
     module Paginated
+
       def is_paginated(options = {})
         extend  DataMapper::Is::Paginated::ClassMethods
       end
+      alias is_page_by_page is_paginated
 
       module ClassMethods
         def paginated(options = {})

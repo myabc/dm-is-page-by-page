@@ -1,12 +1,12 @@
-h1. dm-is-paginated
+h1. dm-is-page-by-page
 
 h2. What
 
-dm-is-paginated is a simple pagination plugin for DataMapper.
+dm-is-page-by-page is a simple pagination plugin for DataMapper.
 
 h2. Installing
 
-<pre>sudo gem install dm-is-paginated</pre>
+<pre>sudo gem install dm-is-page-by-page</pre>
 
 h2. Demonstration of usage
 
@@ -18,7 +18,7 @@ Example:
 
 h2. Google Groups / Mailing List
 
-"http://groups.google.com/group/dm-is-paginated":http://groups.google.com/group/dm-is-paginated
+"http://groups.google.com/group/dm-is-page-by-page":http://groups.google.com/group/dm-is-page-by-page
 
 h2. How to report a bug or make a feature request
 
@@ -30,19 +30,19 @@ Read the "8 steps for fixing other people's code":http://drnicwilliams.com/2007/
 
 You can fetch the source from github:
 
-<pre>git clone git://github.com/lholden/dm-is-paginated.git</pre>
+<pre>git clone git://github.com/lholden/dm-is-page-by-page.git</pre>
 
 h3. Build and test instructions
 
-<pre>cd dm-is-paginated
+<pre>cd dm-is-page-by-page
 rake test
 rake install_gem</pre>
 
 
 h2. License
 
-This code is free to use under the terms of the "MIT license":http://dm-is-paginated.rubyforge.org/rdoc/files/License_txt.html.
+This code is free to use under the terms of the "MIT license":http://dm-is-page-by-page.rubyforge.org/rdoc/files/License_txt.html.
 
 h2. Contact
 
-Comments are welcome, and can be sent via "Google Groups":http://groups.google.com/group/dm-is-paginated.
+Comments are welcome, and can be sent via "Google Groups":http://groups.google.com/group/dm-is-page-by-page.

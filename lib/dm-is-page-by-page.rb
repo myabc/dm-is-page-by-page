@@ -5,7 +5,7 @@ require 'pathname'
 require 'dm-core'
 
 # Require plugin-files
-dir = Pathname(__FILE__).dirname.expand_path / 'dm-is-paginated'
+dir = Pathname(__FILE__).dirname.expand_path / 'dm-is-page-by-page'
 require dir / "hash"
 require dir / 'is' / 'paginated'
 

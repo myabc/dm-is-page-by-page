@@ -1,11 +1,11 @@
-dm-is-paginated
+dm-is-page-by-page
 ---------------
 
-http://dm-is-paginated.rubyforge.org
+http://github.com/myabc/dm-is-page-by-page
 
 ## DESCRIPTION:
 
-dm-is-paginated is a simple pagination plugin for DataMapper.
+dm-is-page-by-page is a simple pagination plugin for DataMapper.
 
 See the website for more details.
 
