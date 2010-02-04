@@ -10,7 +10,8 @@ begin
     gem.email       = 'alex@alexbcoles.com'
     gem.homepage    = 'http://github.com/myabc/dm-is-page-by-page'
     gem.authors     = ['Lori Holden', 'Alex Coles']
-    gem.add_dependency 'dm-core', '>= 0.10.2'
+    gem.add_dependency 'dm-core',       '>= 0.10.2'
+    gem.add_dependency 'dm-aggregates', '>= 0.10.2'
     gem.add_development_dependency 'rspec', '>= 1.2.9'
     gem.add_development_dependency 'yard',  '>= 0'
   end
